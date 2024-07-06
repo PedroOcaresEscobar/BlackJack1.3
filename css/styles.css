@@ -1,0 +1,388 @@
+main{
+    margin-top: 150px;
+    width: 100%;
+}
+.fondo {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+  
+
+}
+body {
+    background-image: url('../assen/fondo.png');
+    display: flex;
+
+    background-size: cover;
+    background-position: center 80px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.content-lacasa{
+    display: grid;
+    grid-template-columns: repeat(
+        3,1fr
+    );
+}
+#laCasa {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(74, 212, 86 , 0.3);
+    border: 3px solid red;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30%;
+    height: 400px;
+}
+.card {
+    width: 100px;
+    height: 150px;
+    border-inline-start-width: 10px solid blue;
+    background-color: rgba(255, 255, 255, 0.89);
+    border: 3px solid red;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.card1 {
+    width: 100px;
+    height: 150px;
+    border-inline-start-width: 10px solid blue;
+    background-color: rgba(255, 255, 255, 0.89);
+    border: 3px solid red;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.cartas-laCasa {
+    display: flex;
+    gap: 20px;
+    width: 450px;
+    color:red;
+    margin-left: auto;
+
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.jugadores {
+    margin-top: 30px;
+    height: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.contenedor-cartas {
+    border: 3px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(21, 22, 21, 0.3);
+    text-align: center;
+    width: 450px;
+    border-radius: 30%;
+}
+h7 {
+    background-color: rgb(255, 8, 0);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 0);
+    color: white;
+}
+
+.btn-rc {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(245, 185, 55);
+    color: rgb(248, 70, 0);
+    font-weight: bold;
+}
+
+.apuesta-btn {
+    width: 50px;
+    height:  50px;;
+    background-color: rgb(245, 185, 55);
+    color: rgb(248, 70, 0);
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.apuesta {
+    font-size: 20px;
+    margin: 0 10px;
+}
+.creditos {
+    margin-top: 10px;
+    color: chartreuse;
+    font-size: 40px;
+
+    font-weight: bold;
+    margin-left: -200px;
+   
+
+
+
+  
+
+}
+.mijuego{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(148, 102, 16);
+    width: 600px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid 20px rgb(192, 180, 7);
+    height: 300px;
+
+    
+}
+.apuesta-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-right: auto;
+    margin-top: 10px;
+
+    margin-left: auto;
+
+}
+.blanco{
+    color:red;
+    background-color: white;
+
+}
+.rojo{
+    color:rgb(255, 255, 255);
+    background-color: rgb(221, 35, 35);
+
+}
+.azul{
+    color:rgb(255, 255, 255);
+
+    background-color: rgb(38, 0, 255);
+
+}
+.verde{
+    color:rgb(255, 255, 255);
+
+    background-color: rgb(0, 100, 42);
+
+}
+.morada{
+    color:rgb(255, 255, 255);
+
+    background-color: rgb(165, 28, 142);
+
+}
+.tuApuesta{
+    display: flex;
+    background-color:#212529;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: chartreuse;
+
+}
+.btn-cargar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+
+    background-color: rgb(236, 253, 2);
+}
+
+.cargarCreditos{
+
+
+    margin: auto;
+display: grid;
+
+    grid-template-rows: repeat(3,1fr);
+
+}
+.pack{
+
+
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    padding:5px;
+
+}
+.contenedor-pack{
+    grid-row: 2 /3;
+    width: 90%;
+
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 15px;
+    padding: 15px;
+    
+}
+.cartas-laCasa{
+    height: 300px;
+}
+.picas{
+    color:black;
+}
+.tréboles{
+    color: black;
+}
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+}
+.modal-content {
+    background-image: url('../assen/bienvenido.png');
+    margin: 15% auto;
+    padding: 20px;
+    background-color: rgb(99, 99, 99, 0.0);
+    border: #198754;
+    width: 1000px;
+    height: 490px;
+    text-align: center;
+    h2{
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+    }
+    label{
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+
+    }
+    input{
+        margin-right: auto;
+        font-size: 30px;
+        margin-left: auto;
+        width: 50%;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    button{
+        margin-right: auto;
+        margin-top: 50px;
+        margin-left: auto;
+        width: 200px;
+        background-color: #e4e011;
+        height: 60px;
+        border-radius: 10px;
+        
+
+
+
+
+    }
+    
+
+    
+}
+
+.pack-inicial{
+    background-color: rgb(0, 17, 255);
+}
+.pack-medio{
+    background-color: red;
+}
+.pack-full{
+    background-color: rgb(255, 238, 0);
+    color: black;
+}
+.btn-adquirir {
+    background-color: green;
+}
+.total-compra{
+
+    margin: auto;
+    padding: 40px;
+    p{
+        font-size: 10px;
+    }
+    border-radius: 10px;
+}
+.total-compra-btn{
+    background-color: #198754;
+    margin: auto;
+    padding: 40px;
+    p{
+        font-size: 20px;
+    }
+    border-radius: 10px;
+}
+.btn{
+    border: solid 1px white;
+}
+.cantidad-packs{
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+#repartirCartasBtn {
+    position: fixed;
+    bottom: 20px; /* Puedes ajustar este valor según tu diseño */
+    right: 20px;  /* 20px desde la derecha */
+    z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    background-color:  rgb(92, 33, 33);/* Color de fondo del botón */
+    color: #e4e011;/* Color del texto del botón */
+    border: none; /* Sin bordes */
+    /* Espaciado interno del botón */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Inline-block para permitir padding y margen */
+    font-size: 26px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cursor de puntero al pasar por encima */
+    border-radius: 12px; /* Bordes redondeados */
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    height: 70px;
+    border: solid 5px #e4e011;
+}
+
+/* Efecto hover para el botón */
+#repartirCartasBtn:hover {
+    background-color: red;
+    color: #e4e011;
+}
+.sentarse-btn{
+    background-color: rgb(92, 33, 33);
+    color: #e4e011;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar-brand img {
+    max-height: 100px; /* Ajusta la altura máxima deseada */
+    width: auto;      /* Mantiene la proporción de la imagen */
+    margin-left: 50px;
+}

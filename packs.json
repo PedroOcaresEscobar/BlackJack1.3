@@ -1,0 +1,24 @@
+{
+    "suits": ["Picas", "Tréboles", "Corazones", "Diamantes"],
+    "ranks": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"],
+    "creditosIniciales": 500,
+    "numeroAsientos": 3,
+    "packs": [
+      {
+        "nombre": "pack Inicial",
+        "creditos": 500,
+        "precio": 20
+      },
+      {
+        "nombre": "pack medio",
+        "creditos": 2000,
+        "precio": 50
+      },
+      {
+        "nombre": "pack full",
+        "creditos": 5000,
+        "precio": 100
+      }
+    ]
+  }
+  
